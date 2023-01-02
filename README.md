@@ -8,6 +8,7 @@ Basic Data Structures and Algorithm. Currently only in C++.
 - Stack
 - Queue
 - Binary Search Tree
+- Hash Table
 
 ## Algorithms:
 
