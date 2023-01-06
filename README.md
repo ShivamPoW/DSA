@@ -9,6 +9,7 @@ Basic Data Structures and Algorithm. Currently only in C++.
 - Queue
 - Binary Search Tree
 - Hash Table
+- Graph
 
 ## Algorithms:
 
