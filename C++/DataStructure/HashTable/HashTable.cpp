@@ -60,6 +60,8 @@ class HashTable {
             return INT_MIN;
         }
 
+        // Add remove function
+
         vector<string> keys() {
             vector<string> allkeys;
             for(int i=0; i < SIZE; i++) {
