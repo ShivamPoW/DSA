@@ -16,5 +16,6 @@ Basic Data Structures and Algorithm. Currently only in C++.
 - Recursion
 - Bubble Sort
 - Selection Sort
+- Insertion Sort
 
 
