@@ -51,13 +51,14 @@ void mergeSort(int arr[], int leftIndex, int rightIndex) {
     if (leftIndex >= rightIndex) return;
     int midIndex = leftIndex + (rightIndex - leftIndex) / 2;  
     mergeSort(arr, leftIndex, midIndex);
+    mergeSort(arr, midIndex+1, rightIndex);
     merge(arr, leftIndex, midIndex, rightIndex);
 }
 
 
 int main() {
 
-    int arr[] = {1,3,7,8,2,4,5,6};
+    int arr[] = {1,3,7,8,9,2,4,5,6};
 
     int size = sizeof(arr)/sizeof(arr[0]);
     int leftIndex = 0;
