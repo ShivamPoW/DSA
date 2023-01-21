@@ -65,18 +65,18 @@ class BinarySearchTree {
             return false;
         }
 
-        void DFSPreOrder(Node* currentNode) {
-        cout << currentNode->value << " ";
-        if (currentNode->left) {
-            DFSPreOrder(currentNode->left);
-        }
-        if (currentNode->right) {
-            DFSPreOrder(currentNode->right);
-        }
+        void DFSPostOrder(Node* currentNode) { 
+            if (currentNode->left) {
+                DFSPostOrder(currentNode->left);
+            }
+            if (currentNode->right) {
+                DFSPostOrder(currentNode->right);
+            }
+            cout << currentNode->value << " ";
         }
 
         //Function overloading
-        void DFSPreOrder() { DFSPreOrder(root);}
+        void DFSPostOrder() { DFSPostOrder(root);}
 
 };
 
@@ -91,6 +91,5 @@ int main() {
     newBST->insert(6);
     newBST->insert(8);
 
-    newBST->DFSPreOrder();
+    newBST->DFSPostOrder();
 }
-
