@@ -23,4 +23,5 @@ Basic Data Structures and Algorithm. Currently only in C++.
   - Breadth First Search
   - Depth First Search
     - DFS Pre Order
+    - DFS Post Order
 
