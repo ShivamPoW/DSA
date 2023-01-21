@@ -21,4 +21,6 @@ Basic Data Structures and Algorithm. Currently only in C++.
 - Quick Sort 
 - Tree Traversal 
   - Breadth First Search
+  - Depth First Search
+    - DFS Pre Order
 
