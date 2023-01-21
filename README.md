@@ -18,5 +18,7 @@ Basic Data Structures and Algorithm. Currently only in C++.
 - Selection Sort
 - Insertion Sort
 - Merge Sort
-
+- Quick Sort 
+- Tree Traversal 
+  - Breadth First Search
 
